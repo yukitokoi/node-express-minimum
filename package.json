@@ -1,0 +1,29 @@
+{
+  "name": "node-express-minimum",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "sass": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kouMatsumoto/node-express-minimum.git"
+  },
+  "engines": {
+    "node": "~6.5.0",
+    "npm": "~3.10.3"
+  },
+  "license": "ISC",
+  "author": "Kou Matsumoto",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "pug": "^2.0.0-beta4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
